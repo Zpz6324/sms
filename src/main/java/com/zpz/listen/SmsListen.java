@@ -37,6 +37,7 @@ public class SmsListen {
 
             System.out.println(resp.getCode());
             System.out.println(resp.getMessage());
+            System.out.println();
 
         } catch (ClientException e) {
             e.printStackTrace();
